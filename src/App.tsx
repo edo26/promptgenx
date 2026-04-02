@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { GoogleGenerativeAI } from '@google/generative-ai'
-import { Gamepad2, Video, Sparkles, Copy, Settings, ChevronRight, ChevronDown } from 'lucide-react'
+import { Gamepad2, Sparkles, Copy, Settings, ChevronRight, ChevronDown } from 'lucide-react'
 import './index.css'
 
 interface GeneratedPrompt {
